@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Prata Regular";
+  src: url("font/Prata-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 5em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h3 {
+  font-style: italic; 
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: "Prata Regular";
+}
+
+.author-name, .date-time {
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.article-title {
+  margin-bottom: 16px;
+}
+
+.author-name {
+  margin-top: 4px;
+}
+
+.date-time {
+  text-transform: uppercase;
+}
+
+.article-container {
+  border: 1px solid #A0A0A0;
+}
+
+.article-content {
+  width: 65%;
+  margin-left: 32px;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.site-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: #A0A0A0;
+  margin: 0;
+  padding: 0;
+}
+
+ul.site-tabs li {
+  padding: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  flex-grow: 1;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+ul.site-tabs li:hover {
+  background-color: #d0d0d0;
+}
+
+.article-container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.article-container > section {
+  padding-left: 8px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container > * {
+  flex-grow: 1;
+}
+
+.header-flex-resist {
+  padding-left: 16px;
+  max-width: 60%;
+}
+
+.title-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

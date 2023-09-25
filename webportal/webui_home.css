@@ -1,0 +1,80 @@
+.webui-header {
+  background-image: url("img/web4all-mod.png");
+  background-repeat: no-repeat;
+  height: 160px;
+  position: relative;
+  margin-bottom: 16px;
+  margin-left: 0;
+}
+
+html, body  {
+  margin: 0;
+}
+
+h1 {
+  bottom: 4px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  margin-left: 16px;
+  color: rgb(255, 211, 90);
+  font-size: 1.8em;
+}
+
+.webui-tablist {
+  margin: 32px;
+  position: relative;
+}
+
+.webui-tab {
+  margin-left: 20px;
+}
+
+.webui-tab a {
+  display: inline-block;
+  position: relative;
+  padding: 4px 8px;
+  margin-right: 24px;
+  text-decoration: none;
+  vertical-align: bottom;
+  color: black;
+  z-index: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.webui-tab a.active {
+  color: white;
+  font-weight: 800;
+  z-index: 2;
+}
+
+.webui-tab a::before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale(1.2, 1.2) perspective(.5em) rotateX(5deg);
+  background-color: #E0E0E0;
+  border-radius: 4px;
+}
+
+.webui-tab a.active::before {
+  background-color: rgb(38, 48, 133);
+}
+
+.nav-divider {
+  width: 100%;
+  margin: 0;
+  height: 6px;
+  border: none;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  background-color: rgb(38, 48, 133);;
+}

@@ -1,0 +1,73 @@
+#results-header {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4px;
+  margin: 32px;
+  align-content: flex-start;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  width: 100%;
+  background-color: #A0A0A0;
+}
+
+.search-input {
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 4px;
+  padding-left: 12px;
+  width: 90%;
+  min-width: 300px;
+  max-width: 1024px;
+  margin-top: 12px;
+  margin-left: 32px;
+  display: inline-block;
+}
+
+#results-view {
+  margin-left: 128px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+#search-icon {
+  vertical-align: middle;
+  padding-bottom: 4px;
+  opacity: 0.6;
+}
+
+input, input:focus {
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  width: calc(100% - 48px);
+}
+
+#fetchquest-logo {
+  width: 64px;
+  height: auto;
+}
+
+.result {
+  margin-top: 32px;
+}
+
+.result h2 {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.result p, .result h2 {
+  margin: 4px 0px;
+}
+
+.results-link {
+  color: green;
+}

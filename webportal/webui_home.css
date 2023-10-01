@@ -159,7 +159,7 @@ body::before {
   width: 100%;
   min-height: 100%;
   z-index: 0;
-  background-image: url("img/auth_watermark_tp_tint.png");
+  background-image: url("img/auth_watermark_tp_tint.png"), url("img/auth_watermark_tp_tint.png");
   background-size: 512px;
   opacity: 0.4;
   background-position-x: -128px;

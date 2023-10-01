@@ -2,7 +2,7 @@
   window.addEventListener("load", main);
 
   function main() {
-    setTimeout(showPaywall, 2400);
+    setTimeout(showPaywall, 1100);
   }
 
   function showPaywall() {

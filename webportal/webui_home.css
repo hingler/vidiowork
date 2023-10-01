@@ -1,10 +1,13 @@
 .webui-header {
   background-image: url("img/web4all-mod.png");
   background-repeat: no-repeat;
-  height: 160px;
+  height: 140px;
   position: relative;
   margin-bottom: 16px;
+  padding-left: 16px;
   margin-left: 0;
+  border-bottom: 2px solid rgb(255, 211, 90);
+  max-width: 960px;
 }
 
 html, body  {
@@ -21,6 +24,22 @@ h1 {
   margin-left: 16px;
   color: rgb(255, 211, 90);
   font-size: 1.8em;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.tablist {
+  margin-left: 32px;
+}
+
+ul.tablist li {
+  font-family: sans-serif;
+  list-style: url("img/button.png");
+  color: blue;
+  text-decoration: underline;
+  padding-bottom: 4px;
 }
 
 .webui-tablist {
@@ -51,6 +70,10 @@ h1 {
   z-index: 2;
 }
 
+.home-list {
+  padding-left: 32px;
+}
+
 .webui-tab a::before {
   z-index: -1;
   content: '';
@@ -76,5 +99,69 @@ h1 {
   z-index: 2;
   position: absolute;
   left: 0;
-  background-color: rgb(38, 48, 133);;
+  background-color: rgb(38, 48, 133);
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  font-family: sans-serif;
+  z-index: -2;
+}
+
+table th {
+  padding-right: 64px;
+  padding-left: 8px;
+  padding-top: 16px;
+  text-align: left;
+
+  background-color: rgb(38, 48, 133);
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 0;
+}
+
+.admin-content {
+  margin: 32px;
+
+}
+
+.student-enrolled {
+  color: #00FF00;
+}
+
+.student-withdrawn {
+  color: #FF0000;
+}
+
+body {
+  position: relative;
+}
+
+td button {
+  float: right;
+  margin-right: 32px;
+}
+
+body, html {
+  position: relative;
+  height: 100%;
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  background-image: url("img/auth_watermark_tp.png");
+  background-size: 512px;
+  opacity: 0.4;
+  background-position-x: -128px;
+  pointer-events: none;
 }

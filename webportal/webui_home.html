@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="webui_home.css" />
+    <script src="webui_home.js"></script>
   </head>
   <body>
     <section class="webui-header">
@@ -11,11 +12,22 @@
       <section class="webui-tablist">
         <nav class="webui-tab">
           <a href=".">Employee Info</a>
-          <a href="." class="active">Administration</a>
+          <a href=".">Administration</a>
           <a href=".">Timesheets</a>
-          <a href=".">Student Enrollment</a>
+          <a href="." class="active">Student Enrollment</a>
         </nav>
         <hr class="nav-divider" />
+      </section>
+
+      <section class="admin-content">
+        <table id="students-list">
+          <tr>
+            <th>Student</th>
+            <th>ID</th>
+            <th>Grade</th>
+            <th>Enrollment Status</th>
+          </tr>
+        </table>
       </section>
     </section>
   </body>

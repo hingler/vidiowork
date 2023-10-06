@@ -63,6 +63,7 @@ hr {
   margin-left: 128px;
   font-family: sans-serif;
   color: gray;
+  max-width: 768px;
 }
 
 #search-icon {
@@ -85,6 +86,7 @@ input, input:focus {
 
 .result {
   margin-top: 32px;
+  line-height: 1.2;
 }
 
 .result h2 {

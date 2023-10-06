@@ -1,14 +1,47 @@
+@font-face {
+  font-family: "Prata Regular";
+  src: url("font/Prata-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   max-width: 540px;
   margin: auto;
-  font-family: 'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+  font-family: "Prata Regular";
 }
 
 h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+sub {
+  text-align: center;
+  display: block;
+  margin-top: 2px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
   text-transform: uppercase;
 }
 
 .obit-portrait {
   max-width: 100%;
   height: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
 }

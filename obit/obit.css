@@ -1,0 +1,14 @@
+body {
+  max-width: 540px;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.obit-portrait {
+  max-width: 100%;
+  height: auto;
+}
